@@ -6,7 +6,7 @@ function Counter() {
 
   return (
     <>
-      <h3>{count}</h3>
+      <h4>{count}</h4>
       <CountChanger value={count} setValue={setCount} />
     </>
   );
